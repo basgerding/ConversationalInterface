@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0"><source path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res"/></dataSet><dataSet config="main"><source path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res"><file name="conversandroid" path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/drawable-hdpi/conversandroid.png" qualifiers="hdpi" type="drawable"/><file name="conversandroid" path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/drawable-ldpi/conversandroid.png" qualifiers="ldpi" type="drawable"/><file name="conversandroid" path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/drawable-mdpi/conversandroid.png" qualifiers="mdpi" type="drawable"/><file name="conversandroid" path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/drawable-xhdpi/conversandroid.png" qualifiers="xhdpi" type="drawable"/><file name="richtts" path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/layout/richtts.xml" qualifiers="" type="layout"/><file path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/values/strings.xml" qualifiers=""><string name="tts_speak_button">Speak</string><string-array name="languages">
+        <item>EN</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>DE</item>
+    </string-array><string name="app_name">Rich TTS</string><string name="tts_hint">Type some words to be spoken</string></file><file path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file></source><source path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/build/generated/res/rs/debug"/><source path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/Users/zoraida/git/ConversationalInterface/Android/RichTTS/app/src/debug/res"/></dataSet><mergedItems/></merger>

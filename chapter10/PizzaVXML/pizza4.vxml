@@ -1,0 +1,62 @@
+<!--*  Copyright 2016 Zoraida Callejas, Michael McTear and David Griol * *  This file is part of the Conversandroid Toolkit, from the book: *  The Conversational Interface, Michael McTear, Zoraida Callejas and David Griol *  Springer 2016 <https://github.com/zoraidacallejas/ConversationalInterface/> *   *  This program is free software: you can redistribute it and/or modify *  it under the terms of the GNU General Public License as published by *  the Free Software Foundation, either version 3 of the License, or *  (at your option) any later version. *  This program is distributed in the hope that it will be useful, *  but WITHOUT ANY WARRANTY; without even the implied warranty of *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the *  GNU General Public License for more details. *  You should have received a copy of the GNU General Public License *   along with this program. If not, see <http://www.gnu.org/licenses/>. --><?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1">
+<form>
+<grammar src = "../grammar/complete.grxml"/>
+<initial name="complete">
+<prompt bargein="false"> Welcome to the Pizzeria. Please tell me your order. </prompt>
+<catch event ="nomatch noinput">
+<prompt bargein="false"> Please say the size and type of pizza you want. For example, a large Sicilian pizza </prompt>
+</catch>
+<catch event ="nomatch noinput" count ="2">
+<prompt bargein="false"> I am sorry, I have not understood your order. Let’s go step by step.
+</prompt>
+<assign name="complete" expr="true"/>
+</catch>
+</initial>  
+  
+<field name="type">
+<prompt bargein="false">What kind of pizza do you want? 
+</prompt>
+<grammar src="../grammar/type.grxml"/>
+<nomatch>
+<prompt bargein="false"> Please say the name of a pizza, for example Sicilian. </prompt>
+</nomatch>
+<nomatch count ="2">
+<prompt bargein="false"> Please say the name of a pizza. The four options are marinara, margherita, barbecue and Sicilian. </prompt>
+</nomatch>
+</field>
+<field name="size">
+<prompt bargein="false">Tell me the size</prompt>
+<grammar src="../grammar/size.grxml"/>
+<nomatch>
+<prompt bargein="false"> Please say the size of the pizza, for example large. </prompt>
+</nomatch>
+<nomatch count ="2">
+<prompt bargein="false"> Please say the size of the pizza. The options are small, large, and extra large. 
+</prompt>
+</nomatch>
+</field>
+<field name="confirmation">
+<prompt bargein="false"> You have ordered a <value expr="size"/> <value expr="type"/> pizza 
+Is this correct? </prompt>
+<grammar src="../grammar/confirmation.grxml"/>
+<filled>
+<if cond="confirmation =='no' ">
+<clear namelist="type"/>
+<clear namelist="size"/>
+<clear namelist="confirmation"/>
+</if>
+</filled>
+</field>
+<filled> 
+<prompt bargein="false"> Your pizza will be ready soon. Thank you for using the pizzeria service.
+<!-- 
+To use the audio element you will need to record a file called pizza.wav and save it in the audio folder
+Otherwise comment out the next line
+-->
+<audio src=“../audio/pizza.wav"/>
+</prompt>
+</filled>
+</form>
+</vxml>
+

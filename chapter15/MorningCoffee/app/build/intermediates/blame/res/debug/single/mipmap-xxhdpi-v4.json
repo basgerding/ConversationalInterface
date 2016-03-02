@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zoraida/git/ConversationalInterface/AndroidWear/AudioNote/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/zoraida/git/ConversationalInterface/AndroidWear/AudioNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zoraida/git/ConversationalInterface/AndroidWear/MorningCoffee/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/conversandroid.png",
+        "source": "/Users/zoraida/git/ConversationalInterface/AndroidWear/MorningCoffee/app/src/main/res/mipmap-xxhdpi/conversandroid.png"
+    }
+]

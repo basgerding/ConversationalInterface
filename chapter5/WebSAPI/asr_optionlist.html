@@ -1,0 +1,57 @@
+<!--
+*  Copyright 2016 Zoraida Callejas, Michael McTear, David Griol
+*
+*  This file is part of the book:
+*  The Conversational Interface, Michael McTear, Zoraida Callejas, and David Griol
+*  Springer 2016
+*
+*  This program is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+
+*  This program is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+*  GNU General Public License for more details.
+
+*  You should have received a copy of the GNU General Public License
+*   along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+-->
+<!-- This file has been adapted from
+example 2 in: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html#tts-section -->
+
+<html>
+<head>
+	<title>Chapter 5 - Web SAPI</title>
+</head>
+<body>
+<h1>Speech Recognition - Example 3 </h1>
+	<button id="start_button" onclick="startListening(event)">Press and talk</button>
+	<br/><br/>Choose the result you prefer: <select id="select"></select>
+</body>
+</html>	
+
+<script>
+var recognition = new webkitSpeechRecognition();
+
+recognition.onresult = function(event) {
+  if (event.results.length > 0) {
+    var result = event.results[0];
+    for (var i = 0; i < result.length; ++i) {
+      var text = result[i].transcript;
+      select.options[i] = new Option(text, text);
+    }
+  }
+}
+
+function startListening(event) {
+  recognition.lang = 'en-EN';
+  recognition.continuous = false;
+  recognition.maxAlternatives = 5;
+  select.options.length = 0;
+  recognition.start();
+}
+ 
+</script>

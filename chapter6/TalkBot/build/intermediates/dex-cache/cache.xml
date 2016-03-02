@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/classes-f7cbff935e84b7e20d88dd90d159cacc4cca702e.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/classes-560e6062b9cc1927a3bf7414e4094ce4daace384.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5.1/eecbb0b998e77629862a13d957d552b3be58fc4e/httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/httpclient-android-4.3.5.1-f76f1e4e0bbee2c46437703cf2d01e7248888b6d.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-73c44540beb78e0e74cb78278aaa7a23b6061c7b.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/fluent-hc/4.3.5/a5fc1041491f3c5cfcc37ad7e6a226189f94161b/fluent-hc-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a5fc1041491f3c5cfcc37ad7e6a226189f94161b">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/fluent-hc-4.3.5-b93c09ceed4c988fa2345c64451e7479e492e733.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/zoraida/Documents/codigo/ConversationalInterface/chapter6/TalkBot/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-6f4a6c17b33f6eb42494b3c298e222a42d4aca13.jar" />
+    </item>
+
+</items>

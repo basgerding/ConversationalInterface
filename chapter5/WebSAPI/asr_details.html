@@ -1,0 +1,56 @@
+<!--
+*  Copyright 2016 Zoraida Callejas, Michael McTear, David Griol
+*
+*  This file is part of the book:
+*  The Conversational Interface, Michael McTear, Zoraida Callejas, and David Griol
+*  Springer 2016
+*
+*  This program is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+
+*  This program is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+*  GNU General Public License for more details.
+
+*  You should have received a copy of the GNU General Public License
+*   along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+-->
+
+<html>
+<head>
+	<title>Chapter 5 - Web SAPI</title>
+</head>
+<body>
+<h1>Speech Recognition - Example 2 </h1>
+	<button id="start_button" onclick="startListening(event)">Press and talk</button>
+	<br/><br/>Recognition details:
+	<br/><label id="feedback" name="feedback">No results available yet</label>
+</body>
+</html>	
+
+<script>
+var recognition = new webkitSpeechRecognition();
+
+recognition.onresult = function(event) {
+	final_transcript = '';
+    for (var i = 0; i < event.results.length; ++i) {
+		for(var j=0; j<recognition.maxAlternatives; ++j){
+			final_transcript += 'results['+i+']['+j+'] - Transcript=\''+event.results[i][j].transcript+'\' - Confidence='+event.results[i][j].confidence+'<br/>';
+		}
+	}
+    feedback.innerHTML = final_transcript;
+};
+
+
+function startListening(event) {
+  recognition.lang = 'en-EN';
+  recognition.continuous = false;
+  recognition.maxAlternatives = 5;
+  recognition.start();
+}
+
+</script>

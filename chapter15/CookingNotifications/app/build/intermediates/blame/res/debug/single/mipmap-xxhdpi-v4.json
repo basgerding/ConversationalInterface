@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zoraida/git/ConversationalInterface/AndroidWear/CookingNotifications/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/cook.png",
+        "source": "/Users/zoraida/git/ConversationalInterface/AndroidWear/CookingNotifications/app/src/main/res/mipmap-xxhdpi/cook.png"
+    },
+    {
+        "merged": "/Users/zoraida/git/ConversationalInterface/AndroidWear/CookingNotifications/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/conversandroid.png",
+        "source": "/Users/zoraida/git/ConversationalInterface/AndroidWear/CookingNotifications/app/src/main/res/mipmap-xxhdpi/conversandroid.png"
+    }
+]
