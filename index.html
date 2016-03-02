@@ -1,72 +1,196 @@
 <!DOCTYPE html>
+
 <html>
 
+
+
+
   <head>
+
     <meta charset='utf-8'>
+
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Conversationalinterface : Companion of the book: &quot;The Conversational Interface&quot;, by Michael McTear, Zoraida Callejas and David Griol, Springer 2016">
+
+    <meta name="description" content="The Conversational Interface Companion : Code for the book &quot;The Conversational Interface&quot; by Michael McTear, Zoraida Callejas &amp; David Griol, Springer 2016">
+
+
+
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Conversationalinterface</title>
+
+
+
+    <title>The Conversational Interface Companion</title>
+
   </head>
+
+
+
 
   <body>
 
+
+
+
     <!-- HEADER -->
+
     <div id="header_wrap" class="outer">
+
         <header class="inner">
+
           <a id="forkme_banner" href="https://github.com/zoraidacallejas/ConversationalInterface">View on GitHub</a>
 
-          <h1 id="project_title">Conversationalinterface</h1>
-          <h2 id="project_tagline">Companion of the book: &quot;The Conversational Interface&quot;, by Michael McTear, Zoraida Callejas and David Griol, Springer 2016</h2>
+
+
+
+          <h1 id="project_title">The Conversational Interface Companion</h1>
+
+          <h2 id="project_tagline">Code for the book &quot;The Conversational Interface&quot; by Michael McTear, Zoraida Callejas &amp; David Griol, Springer 2016</h2>
+
+
+
 
             <section id="downloads">
+
               <a class="zip_download_link" href="https://github.com/zoraidacallejas/ConversationalInterface/zipball/master">Download this project as a .zip file</a>
+
               <a class="tar_download_link" href="https://github.com/zoraidacallejas/ConversationalInterface/tarball/master">Download this project as a tar.gz file</a>
+
             </section>
+
         </header>
+
     </div>
+
+
+
 
     <!-- MAIN CONTENT -->
+
     <div id="main_content_wrap" class="outer">
+
       <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+        <p align="justify">The idea of being able to hold a conversation with a computer has fascinated people for a long time and has featured in many science fiction books and movies. With recent advances in spoken language technology, artificial intelligence, and conversational interface design, coupled with the emergence of smart devices, it is now possible to use voice to perform many tasks on a device - for example, sending a text message, updating the calendar, or setting an alarm. Often these tasks would require multiple steps to complete using touch, scrolling and text input but they can now be achieved with a single spoken command. Indeed voice input is often the most appropriate mode of interaction, especially on small devices where the physical limitations of the real estate of the device make typing and tapping more difficult.</p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p align="justify">The topic of this book is the conversational interface. Conversational interfaces enable people to interact with smart devices using spoken language in a natural way – just like engaging in a conversation with a person. The book provides an introduction and reference source for students and developers who wish to understand this rapidly emerging field and to implement practical and useful applications. The book aims at a middle ground between reviews and blogs in online technology magazines on the one hand and, on the other, technical books, journal articles and conference presentations intended for specialists in the field. Currently there is no comparable book that brings together information on conversa-tional interfaces comprehensively and in a readable style.</p>
+
+
+
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<a id="the-code" class="anchor" href="#the-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The code</h3>
+
+
+
+
+<p>In several chapters we provide tutorials showing how to develop examples and apps that il-lustrate different kinds of conversational interface at different levels of complexity. The code has been organized by chapters:</p>
+
+
+
+
+<ul>
+
+    <li>Chapter 5: Implementing speech input and output
+
+    <ul>
+
+        <li> Web SAPI (Weg). These examples show how to use the Web Speech API to pro-vide spoken input and output 
+
+            on web pages (you can try it using Google Chrome).</li>
+
+        <li> SimpleTTS, RichTTS, SimpleASR, RichASR, TalkBack (Android smartphone). These apps show with increasing 
+
+            complexity how to build Android apps with speech output and input</li>
+
+    </ul>
+
+    <li>Chapter 6: Creating a conversational interface using chatbot technology
+
+    <ul>
+
+        <li>TalkBot (Android smartphone). Shows how to build an Android app that connects to a chatbot in the
+
+            Pandorabots web service.</li>
+
+        <li>AIML (Web). Contains the AIML code that can be used to build a chatbot in Pandorabots.</li>
+
+    </ul>
+
+    <li>Chapter 8: Implementing spoken language understanding
+
+    <ul>
+
+        <li>Understand (Android smartphone): Shows the use of the Api.ai platform to extract semantic represen-tations from the user's spoken utterances.</li>
+
+    </ul>
+
+    <li>Chapter 10: Implementing dialog management
+
+    <ul>
+
+        <li>PizzaVXML (Web): Shows how to use VoiceXML build a rule-based dialog manager to manage a pizza service.</li>
+
+        <li>PizzaStat (Desktop): Shows how to build a statistical dialog manager to manage a pizza service.</li>
+
+    </ul>
+
+    <li>Chapter 15: Implementing multimodal conversational interfaces using Android Wear
+
+    <ul>
+
+        <li>MorningCoffee (Android smartwatch), CookingNotifications (Android smartphone), WriteBack (Android smartwatch). These apps show how to build conversational interfaces for smartwatches with Android Wear, from predefined system voice actions to rich speech input processing.</li>
+
+    </ul>
+
+</ul>
+
+
+
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors</h3>
+
+
+
+
+<p>Michael McTear, Zoraida Callejas and David Griol</p>
+
       </section>
+
     </div>
+
+
+
 
     <!-- FOOTER  -->
+
     <div id="footer_wrap" class="outer">
+
       <footer class="inner">
-        <p class="copyright">Conversationalinterface maintained by <a href="https://github.com/zoraidacallejas">zoraidacallejas</a></p>
+
+        <p class="copyright">The Conversational Interface Companion maintained by <a href="https://github.com/zoraidacallejas">zoraidacallejas</a></p>
+
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+
       </footer>
+
     </div>
+
+
+
 
     
 
+
+
+
   </body>
+
 </html>
