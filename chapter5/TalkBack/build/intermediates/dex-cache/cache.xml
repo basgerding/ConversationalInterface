@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_a9a7f1b81a643fc065a23a289220be5bb0a20aa2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_6f4a6c17b33f6eb42494b3c298e222a42d4aca13/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d7c074d519f2371e660b6269ffb68d71b16067fd">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_835acaa1ee3cb91efac67dab90317f893235a7e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_6c695f2d23c7e0fe8855f70ad12cb690219423ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2043b261e53bcba315a09451ed7439ebacf23599">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_66d4892edc93a20f67d25b7a09a82132536d7046/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/TalkBack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_576022cfdd960e7b929f0121bcfa8d2582647a73/classes.dex" />
+    </item>
+
+</items>

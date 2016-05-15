@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-20.0.0_be9a503c8e6224cafab5f01d670928bb96bad8d8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-20.0.0_611485753ac689e508a064f3f975a467b38b682f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-20.0.0_5524bf43f1a6aa4d802bcb3d6274f8f4e4fefb47/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9b7d6a39a03afa5fa35d51015a2c010bc000135b">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_10acf0835ac16716e86c3013ef321c46f7dd4ae5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="38984b2580952fa04b4da31bfd11ba9fbf0dc21f">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/RichTTS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d7b474427037c9458c5c811172ba3fc80d589629/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8eb47db06485733ec1a0fbba928711cf9bcfd96b">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bcee6bf7ac9efc1e143fab55087864a19e413c74/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_6f4a6c17b33f6eb42494b3c298e222a42d4aca13/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_7b15f001b374e6c2b5cb1d069a451b8c7f42242d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_cc0ca61a07f8540f0d4c14aba18f3a91231e0e12/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_33484342d6c0d1aa3981f7eda61bfbcfcec13ab9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="88147e4a44b7e8efc159e79a278392bb2994fee8">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleASR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_43324153ca3d71d426e222a197132adf64c5d411/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rich TTS</string>
+    <string name="tts_hint">Type some words to be spoken</string>
+    <string name="tts_speak_button">Speak</string>
+
+    <string-array name="languages">
+        <item>EN</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>DE</item>
+    </string-array>
+
+</resources>

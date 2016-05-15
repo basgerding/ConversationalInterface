@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zoraida/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_8e4c92d5d8e45df33d6bac7b58223d8b56d83d88.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ed11024b9ce73b3d0195f54a4b2b86e992876d8f">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/pre-dexed/debug/instant-run_43a79b29f5d06d191874e6036a37f994a7da3c0a.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5d4ceeb62babbd5f36253e22360ff68212e72d8d">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b0b1974e0d7b6bc77290565bed03effdb3e93e66.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_0dc220494d195dc0462bc92ac55ac38f1674cbb0.jar" />
+    </item>
+    <item
+        jar="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/zoraida/StudioProjects/ConversationalInterface/chapter5/SimpleTTS/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_6c0a08c8df2df0482184d42e6251c574bd16a1f6.jar" />
+    </item>
+
+</items>

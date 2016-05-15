@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zoraida/StudioProjects/ConversationalInterface/chapter15/CookingNotifications/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/conversandroid.png",
+        "source": "/Users/zoraida/StudioProjects/ConversationalInterface/chapter15/CookingNotifications/app/src/main/res/mipmap-mdpi/conversandroid.png"
+    },
+    {
+        "merged": "/Users/zoraida/StudioProjects/ConversationalInterface/chapter15/CookingNotifications/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/cook.png",
+        "source": "/Users/zoraida/StudioProjects/ConversationalInterface/chapter15/CookingNotifications/app/src/main/res/mipmap-mdpi/cook.png"
+    }
+]
