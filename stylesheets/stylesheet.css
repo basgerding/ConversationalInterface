@@ -317,7 +317,8 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 320px;
+  width: 200px;
+  height: 70px;
   z-index: 10;
   bottom: -40px;
   right: 0;
@@ -348,7 +349,8 @@ Full-Width Styles
 .book_cover_link {
   display: block;
   float: left;
-  width: 100px;
+  width: 150px;
+  height: 250px;
   text-indent: -5000px;
   overflow: hidden;
   background: url(../images/bookcover.jpg) no-repeat bottom right;
