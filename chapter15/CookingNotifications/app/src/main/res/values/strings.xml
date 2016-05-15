@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">CookingNotifications</string>
-    <string-array name="grammar">
-        <item>No</item>
-        <item>Yes, for lunch</item>
-        <item>Yes, for dinner</item>
-    </string-array>
-</resources>
