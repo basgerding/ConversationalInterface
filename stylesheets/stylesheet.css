@@ -325,6 +325,15 @@ Full-Width Styles
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
+#bookcover {
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+  bottom: -40px;
+  right: 0;
+  height: 100px;
+}
+
 .zip_download_link {
   display: block;
   float: right;
@@ -361,10 +370,6 @@ Full-Width Styles
 }
 
 .tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-.book_cover_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
