@@ -54,7 +54,7 @@ import conversandroid.voiceinterface.VoiceActivity;
  * that carry out such functionality.
  *
  * @author Michael McTear, Zoraida Callejas and David Griol
- * @version 4.0, 02/13/16
+ * @version 4.1, 05/16/16
  */
 public class PandoraResultProcessor {
 
@@ -63,6 +63,7 @@ public class PandoraResultProcessor {
 	private static final String LOGTAG = "OOBProcessor";
 	Integer msgId;
 	Exception exception = null;
+
 
 	/**
 	 * Constructor of the OOBProccesor
@@ -129,12 +130,8 @@ public class PandoraResultProcessor {
 				double lat = 0;
 				double lng = 0;
 
-			//	double lat = 37.39473396;
-			//	double lng = -3.5236123;
-
 				if (oobContent.contains("<myloc>")) {
 					mapText = (String) xpath.evaluate("//myloc", doc, XPathConstants.STRING);
-				//	deleted call to findLocation, values for lat and lng hard-coded
 					FindLocation findLocation = new FindLocation(ctx);
 					lat = findLocation.getLatitude();
 					lng = findLocation.getLongitude();
@@ -271,7 +268,6 @@ public class PandoraResultProcessor {
 			// so assume starting point is current location
 			// get values for current location
 			{
-	
 				FindLocation findLocation = new FindLocation(ctx);
 				double lat = findLocation.getLatitude();
 				double lng = findLocation.getLongitude();

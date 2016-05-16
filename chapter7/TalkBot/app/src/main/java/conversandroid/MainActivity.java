@@ -49,7 +49,12 @@ import conversandroid.voiceinterface.VoiceActivity;
 
 /**
  * Chatbot/VPA that uses the technology of Pandorabots to understand the user queries and provide information
- * 
+ * It is able to chat and also to perform some tasks (e.g. give directions, check battery level, launch apps...)
+ *
+ * In Android 6 devices or newer (API level 23), it may ask for permissions at run time
+ * (see: http://developer.android.com/intl/es/training/permissions/requesting.html). In earlier versions
+ * permissions are granted at once beforehand
+ *
  * @author Michael McTear, Zoraida Callejas and David Griol
  * @version 4.0, 05/14/16
  *
@@ -187,7 +192,7 @@ public class MainActivity extends VoiceActivity {
 		setDefaultButtonAppearance();
         showProgressBar(false);
 
-		//Possible bug in Android SpeechRecognizer: NO_MATCH errors even before the the ASR
+		//Possible bug in Android SpeechRecognizer: NO_MATCH errors even before the ASR
 		// has even tried to recognized. We have adopted the solution proposed in:
 		// http://stackoverflow.com/questions/31071650/speechrecognizer-throws-onerror-on-the-first-listening
 		long duration = System.currentTimeMillis() - startListeningTime;
