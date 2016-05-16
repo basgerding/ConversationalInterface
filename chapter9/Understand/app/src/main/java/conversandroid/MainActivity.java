@@ -65,9 +65,9 @@ public class MainActivity extends VoiceActivity {
 	private TextView resultTextView;
 	private AIDataService aiDataService=null;
 
-	//TODO: USE YOUR OWN PARAMETERS HERE
-	private final String accessToken = "YOUR ACCESS TOKEN HERE";
-	private final String subscriptionKey = "YOUR SUBSCRIPTION KEY HERE";
+	//TODO: INSERT YOUR CLIENT ACCESS KEY
+	private final String accessToken = "YOUR CLIENT ACCESS TOKEN HERE";
+	private final String subscriptionKey = "Any String is valid here since April 2016";
 
 	private static Integer ID_PROMPT_QUERY = 0;	//Id chosen to identify the prompts that involve posing questions to the user
 	private static Integer ID_PROMPT_INFO = 1;	//Id chosen to identify the prompts that involve only informing the user
@@ -93,7 +93,9 @@ public class MainActivity extends VoiceActivity {
 		//Set up text view to display results
 		resultTextView = (TextView) findViewById(R.id.resultTextView);
 
-		//Api.ai configuration parameters
+		//Api.ai configuration parameters (the subscriptionkey is not longer mandatory, so you
+		//can use the new constructor without that parameter or keep this one which accepts any
+		//subscription key
 		final AIConfiguration config = new AIConfiguration(accessToken,
 				subscriptionKey, AIConfiguration.SupportedLanguages.English,
 				AIConfiguration.RecognitionEngine.System);
